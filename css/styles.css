@@ -32,7 +32,7 @@ header .logo img {
 header nav {
 	width: 100%;
 	height: 120px;
-	background: #20293b;
+	background: #2a50bf;
 	display: flex;
 }
 
@@ -54,8 +54,8 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-	background: #81a9f9;
-	color: #20293b;
+	background: #ffffff;
+	color: #2a50bf;
 }
 
 header nav ul li i {
@@ -63,13 +63,13 @@ header nav ul li i {
 }
 
 .active {
-	background: #bdcff4;
-	color: #20293b;
+	background: #ffffff;
+	color: #2a50bf;
 }
 
 .active:hover {
 	background: #81a9f9;
-	color: #20293b;
+	color: #2a50bf;
 }
 
 section {
@@ -114,19 +114,19 @@ section {
 }
 
 .paralel-card__content h1 {
-	color: #20293b;
+	color: #2a50bf;
 	font-size: 45px;
 	margin-bottom: 20px;
 }
 
 .paralel-card__content p {
-	color: #20293b;
+	color: #2a50bf;
 	font-size: 16px;
 	margin-bottom: 20px;
 }
 
 .paralel-card__content button {
-	color: #20293b;
+	color: #2a50bf;
 	border: none;
 	background: transparent;
 	width: 70px;
@@ -162,7 +162,7 @@ section {
 
 section.bg-white {
 	background-color: #fff;
-	color: #20293b;
+	color: #2a50bf;
 }
 
 .foro-options {
@@ -207,7 +207,7 @@ section.bg-white {
 }
 
 .latest-posts h2 {
-	color: #20293b;
+	color: #2a50bf;
 }
 
 .latest-posts .post {
@@ -227,7 +227,7 @@ section.bg-white {
 }
 
 .latest-posts .post-content h3 {
-	color: #20293b;
+	color: #2a50bf;
 	margin-bottom: 5px;
 }
 
@@ -236,19 +236,287 @@ section.bg-white {
 }
 
 .about-us {
-    width: 80%;
-    margin: auto;
-    background: #bdcff4;
-    padding: 50px;
+	width: 80%;
+	margin: auto;
+	background: #e9eaee;
+	padding: 50px;
 }
 
 .about-us h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
+	font-size: 60px;
+	margin-bottom: 20px;
 }
 
 .about-us p {
-    font-size: 16px;
-    margin-bottom: 20px;
+	font-size: 16px;
+	margin-bottom: 20px;
 }
 
+.title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+/* foro */
+
+section.foro {
+	color: #05174b;
+	padding: 80px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.foro h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #000;
+}
+
+section.foro ul {
+	padding: 10px;
+	font-size: 18px;
+}
+
+section.foro ul li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.info {
+	padding: 20px;
+	background: rgb(196, 203, 247);
+	border: 3px solid rgb(53, 84, 162);
+	color: rgb(8, 20, 81);
+	margin-bottom: 20px;
+	width: 700px;
+	border-radius: 20px;
+}
+
+.info h2 {
+	margin-bottom: 20px;
+}
+
+section.foro img {
+	width: 80%;
+	object-fit: contain;
+	margin: auto;
+}
+
+section.account {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 25rem;
+	background-color: #fff;
+	border-radius: 24px;
+  }
+  
+  .card .container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .container img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	border: 10px solid #ecf0fc;
+  }
+  
+  .container h2 {
+	font-size: 32px;
+	font-weight: 700;
+	margin: 1rem 0 0.5rem 0;
+  }
+  
+  .container small {
+	color: #120c35;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 2rem;
+  }
+  
+  .container .bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .bar .btn {
+	width: 6rem;
+	cursor: pointer;
+	background-color: #fff;
+	padding: 10px 0;
+	border-radius: 16px;
+	border: 1px solid #c2cdef;
+	color: #120c35;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .btn i {
+	font-size: 20px;
+	margin-bottom: 0.5rem;
+  }
+  
+  .more {
+	display: none;
+	background-color: #120c35;
+	width: 15rem;
+	border-radius: 24px;
+	padding: 2rem 1rem;
+	position: absolute;
+	bottom: 0%;
+	right: -275%;
+  }
+  
+  .more.active {
+	display: block;
+	transition: 0.4s ease;
+  }
+  
+  .more li {
+	width: 90%;
+	height: 2rem;
+	background-color: transparent;
+	list-style-type: none;
+  }
+  
+  .more li a {
+	display: block;
+	height: 100%;
+	color: #fff;
+	font-size: 18px;
+	line-height: 2rem;
+	padding-left: 0.5rem;
+	text-decoration: none;
+	transition: 0.4s ease;
+	border-radius: 4px;
+  }
+  
+  .more li a:hover {
+	background-color: #2d2559;
+  }
+  
+  .btn-more {
+	position: relative;
+  }
+  
+  @media screen and (max-width: 860px) {
+	.more {
+	  right: 0%;
+	  bottom: 125%;
+	}
+  }
+  
+  @media screen and (max-width: 425px) {
+	.card {
+	  width: 15rem;
+	}
+  
+	.container img {
+	  width: 100px;
+	  height: 100px;
+	}
+  
+	.container h2 {
+	  font-size: 20px;
+	}
+  
+	.container small {
+	  font-size: 14px;
+	}
+  
+	.bar .btn {
+	  width: 3.7rem;
+	  font-size: 10px;
+	}
+  
+	.more {
+	  width: 10rem;
+	  padding: 1rem 0.5rem;
+	}
+  
+	.more li {
+	  height: 1.5rem;
+	}
+  
+	.more li a {
+	  line-height: 1.5rem;
+	  font-size: 14px;
+	}
+  }
+  
+
+
+section.post {
+	color: #05174b;
+	padding: 110px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.post h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #000;
+}
+
+section.post p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+section.post img {
+	width: 60%;
+	object-fit: contain;
+	margin: auto;
+	margin-top: 50px;
+}
+
+section.post ul {
+	padding: 80px;
+	font-size: 18px;
+}
+
+section.post ul li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+section.mini p {
+	font-size: 18px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+section.mini .posts {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+section.mini .posts .post_card {
+	width: 45%;
+	padding: 10px;
+	border: 1px solid #0e2a9a;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 20px;
+}
